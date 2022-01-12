@@ -1,0 +1,48 @@
+var player = [
+  {
+  "name":"Ronaldo",
+  "country":"Portugal",
+  "clubTeam":"ManchesterUnited",
+  "position":"Forward",
+  "goals":"800+"
+  },
+  {
+  "name":"Messi",
+  "country":"Argentina",
+  "clubTeam":"PSG",
+  "position":"Forward",
+  "goals":"780+"
+  },
+  {
+  "name":"Neymar",
+  "country":"Brazil",
+  "clubTeam":"PSG",
+  "position":"Forward",
+  "goals":"500+"
+  },
+  {
+  "name":"Beckham",
+  "country":"England",
+  "clubTeam":"RealMadrid",
+  "position":"Midfielder",
+  "goals":"450"
+  },
+  {
+  "name":"Ibrahimovic",
+  "country":"Sweden",
+  "clubTeam":"ManchesterUnited",
+  "position":"Forward",
+  "goals":"250"
+  }
+  ]
+  function lookUpProfile(name,desc) {
+    for(var i=0;i<player.length;i++){
+      if(player[i].name === name){
+        return player[i][desc] ||"No such description";
+      }
+    }
+    return "No such player";
+  }
+
+  var result=lookUpProfile("Ronaldo","clubTeam");
+  console.log(result)
