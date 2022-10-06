@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @HasimNewCoder
+- 👋 Hi, I’m Hasim
 - 👀 Interested towards New Technology and tech 
 development
 - 🌱 I’m currently learning "Full Stack Development" to the fullest.
